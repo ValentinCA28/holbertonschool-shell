@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod a+x */ -R 2>/dev/null
+chmod a+x . .. /root
