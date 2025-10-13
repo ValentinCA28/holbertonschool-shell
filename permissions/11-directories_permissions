@@ -1,2 +1,4 @@
 #!/bin/bash
-ls -la  . .. /root
+if [ "$(stat -c %U hello)" = "guillaume" ]; then
+  chown vincent hello
+fi
